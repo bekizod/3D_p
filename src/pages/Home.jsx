@@ -77,6 +77,7 @@ const Home = () => {
           {currentStage && <HomeInfo currentStage={currentStage} />}
         </div>
       }
+
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
@@ -112,8 +113,11 @@ const Home = () => {
           />
         </Suspense>
       </Canvas>
-      <div className="absolute bottom-5 left-[30vw]">
-        <h1 className="font-bold text-xl">Grab the Airplane To explore</h1>
+      <div
+        className="absolute bottom-10 left-0 right-0 z-10
+ flex items-center justify-center"
+      >
+        <h1 className="font-bold text-xl teatg">Grap The Airplane To Explore!!!</h1>
       </div>
 
       <div className="absolute bottom-2 left-2">

@@ -32,16 +32,16 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: express,
-    //     name: "Express",
-    //     type: "Backend",
-    // },
-    // {
-    //     imageUrl: git,
-    //     name: "Git",
-    //     type: "Version Control",
-    // },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
     {
         imageUrl: github,
         name: "GitHub",
@@ -87,11 +87,11 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
+    {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
     // {
     //     imageUrl: sass,
     //     name: "Sass",
