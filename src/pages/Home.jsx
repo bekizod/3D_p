@@ -119,7 +119,7 @@ const Home = () => {
  flex items-center justify-center"
         >
           <h1 className="font-bold text-xl teatg">
-            Grap The Airplane To Explore!!!
+            Gra The Airplane To Explore!!!
           </h1>
         </div>
       )}
