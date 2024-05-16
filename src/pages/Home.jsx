@@ -113,12 +113,16 @@ const Home = () => {
           />
         </Suspense>
       </Canvas>
-      <div
-        className="absolute bottom-10 left-0 right-0 z-10
+      {!isRotating && (
+        <div
+          className="absolute bottom-10 left-0 right-0 z-10
  flex items-center justify-center"
-      >
-        <h1 className="font-bold text-xl teatg">Grap The Airplane To Explore!!!</h1>
-      </div>
+        >
+          <h1 className="font-bold text-xl teatg">
+            Grap The Airplane To Explore!!!
+          </h1>
+        </div>
+      )}
 
       <div className="absolute bottom-2 left-2">
         <img
