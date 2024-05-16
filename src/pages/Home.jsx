@@ -118,7 +118,7 @@ const Home = () => {
           className="absolute bottom-10 left-0 right-0 z-10
  flex items-center justify-center"
         >
-          <h1 className="font-bold text-xl teatg">
+          <h1 className="font-bold text-xl ">
             Grab The Airplane And Slide To Explore!!!
           </h1>
         </div>
