@@ -11,7 +11,7 @@ const HomeInfo = ({ currentStage }) => {
         👋
         <br />
         A Software Engineer from Ethiopia 🇭🇷
-        but i dont care 
+        
       </h1>
     );
 

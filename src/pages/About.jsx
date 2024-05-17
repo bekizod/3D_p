@@ -43,11 +43,10 @@ const About = () => {
         </div>
       </div>
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience</h3>
+        <h3 className="subhead-text">My Services</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I'll give you the Best Service Based on the lists below
           </p>
         </div>
 
@@ -59,11 +58,7 @@ const About = () => {
               date={experience.date}
                icon={
                   <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
+                    
                   </div>}
                   iconStyle={{background: experience.iconBg}}
 
