@@ -20,7 +20,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Ethiopia, specializing in technical
+          Software Engineer Based in Ethiopia, specializing in technical
           education through hands-on learning and building applications.
         </p>
       </div>
